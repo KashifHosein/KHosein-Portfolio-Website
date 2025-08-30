@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio website for Kashif, a Computer Science student at UWI." />
+  <title>Kashif — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0d1117">
+</head>
+<body>
+  <!-- Header / Intro -->
+  <header class="hero">
+    <img src="headshot.jpg" alt="Your profile headshot" class="profile-pic" />
+    <h1>Hello, I'm Kashif 👋</h1>
+    <p class="subtitle">Computer Science Student @ UWI | Aspiring Software Developer</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul>
+      <li><a href="#about">Who Am I?</a></li>
+      <li><a href="#skills">Technical Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙</button>
+  </nav>
+
+  <!-- Who Am I Section -->
+  <section id="about" class="section">
+    <h2>Who Am I?</h2>
+    <p>
+      I'm a Computer Science student currently pursuing a B.Sc. (Special) at the University of the West Indies.
+      I enjoy problem-solving, building software, and learning new technologies. My main language is
+      <strong>C++</strong>, and I've built several personal and academic projects.
+    </p>
+
+    <!-- Quick section links list (small list under Who Am I?) -->
+    <ul class="jump-list">
+      <a href="#skills">Technical Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </ul>
+  </section>
+
+  <!-- Technical Skills -->
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">C++</div>
+      <div class="skill-card">HTML · CSS · JS</div>
+      <div class="skill-card">Database Systems</div>
+      <div class="skill-card">Computer Architecture</div>
+      <div class="skill-card">Cybersecurity Fundamentals</div>
+      <div class="skill-card">Web Development</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="Emoji-Memory-Match.png" alt="Memory Match Game screenshot" />
+        <h3>Memory Match Game</h3>
+        <p>A C++ memory game designed to test and improve short-term memory.</p>
+        <a href="https://github.com/KashifHosein/games_made_for_discord" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="Discord-Minesweeper.png" alt="Minesweeper Discord generator screenshot" />
+        <h3>Minesweeper for Discord</h3>
+        <p>A C++ program that generates Minesweeper boards to post directly in Discord channels.</p>
+        <a href="https://github.com/KashifHosein/games_made_for_discord" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="U-Link.png" alt="U-Link Web App screenshot" />
+        <h3>U-Link Web App</h3>
+        <p>Group project connecting UWI students and nature enthusiasts; details on my GitHub.</p>
+        <a href="https://github.com/U-Link-Info1601" target="_blank" rel="noopener">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Intern · Mr. Asaf Hosein</h3>
+        <p><em>July–August 2024</em></p>
+        <ul>
+          <li>Typed and reviewed documents using Microsoft Word.</li>
+          <li>Troubleshot software issues (e.g., resolving a Safari browser hijacker).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Reach out via the links below:</p>
+    <div class="contact-links">
+      <a href="mailto:kashifhosein@gmail.com">📧 Gmail</a>
+      <a href="mailto:kashifhosein@proton.me">📧 ProtonMail</a>
+      <a href="https://github.com/KashifHosein" target="_blank" rel="noopener">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/kashif-hosein-406373272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">🔗 LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Kashif</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
